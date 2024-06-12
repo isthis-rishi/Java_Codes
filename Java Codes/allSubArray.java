@@ -1,9 +1,7 @@
 /******************************************************************************
-
-                            Online Java Compiler.
-                Code, Compile, Run and Debug java program online.
-Write your code in this editor and press "Run" button to execute it.
-
+This is the code to print all Sub arrays of the array.
+Just write change the array and call printAllSubArray method to print all the subArrays.
+It it is very useful Array algorithm.
 *******************************************************************************/
 
 public class allSubArray
