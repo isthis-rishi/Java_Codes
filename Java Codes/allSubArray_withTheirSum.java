@@ -1,14 +1,12 @@
 /******************************************************************************
-
-                            Online Java Compiler.
-                Code, Compile, Run and Debug java program online.
-Write your code in this editor and press "Run" button to execute it.
-
+This is the code to print all Sub arrays sum of the array.
+Just change the array and call printSumAllSubArrays method to print all the subArrays sum.
+It it is very useful Array algorithm.
 *******************************************************************************/
 
 public class allSubArray_withTheirSum
 {
-  public static void allSubArray (int arr[])
+  public static void printSumAllSubArrays (int arr[])
   {
 	for (int i = 0; i < arr.length; i++)
 	  {
@@ -31,6 +29,6 @@ public class allSubArray_withTheirSum
   {
 	System.out.println ("Hello World");
 	int arr[] = { 1, 2, 3, 4, 5, 6 };
-	allSubArray (arr);
+	printSumAllSubArrays (arr);
   }
 }
